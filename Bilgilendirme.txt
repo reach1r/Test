@@ -1,0 +1,96 @@
+TR
+# BatSec Dosya Şifreleme / Çözme Aracı
+
+Bu araç, dosyaları şifrelemek ve çözmek için kullanılan bir Python uygulamasıdır. Tkinter kütüphanesi kullanılarak bir grafik kullanıcı arayüzü (GUI) oluşturulmuştur.
+
+## Özellikler V1.0
+
+* Dosyaları AES-256 GCM ile şifreleme ve çözme
+* Şifreleme anahtarı için Scrypt anahtar türetme fonksiyonu.
+* Şifrelenmiş verinin bütünlüğü için HMAC-SHA256.
+* Kullanıcı dostu grafik arayüzü.
+* Açık ve koyu tema seçenekleri.
+* Türkçe ve İngilizce dil seçenekleri.
+* Aktif şifre gücü göstergesi.
+
+## Gereksinimler
+
+* Python 3.6 veya üstü
+* Gerekli olan kütüphaneler ( Kurulum Dosyasını Çalıştırın. )
+
+## Kullanım / Önce kurulum dosyasını çalıştırınız.
+
+1.  Uygulamayı çalıştırın (`Aç adlı dosya otomatik olarak başlatır.`).
+2.  "Dosya Seç" butonuna tıklayarak şifrelenecek veya çözülecek dosyayı seçin.
+3.  Şifreleme veya çözme için bir şifre girin.
+4.  Şifre gücü göstergesini kullanarak güçlü bir şifre seçtiğinizden emin olun.
+5.  "Şifrele" veya "Çöz" butonuna tıklayın.
+6.  Şifrelenmiş veya çözülmüş dosyanın kaydedileceği klasörü seçin.
+
+Tema ve dil seçeneklerini kullanarak arayüzü özelleştirin.
+
+## Önemli
+
+* Bu araç, dosyaları güvenli bir şekilde şifrelemek için güçlü şifreleme algoritmaları kullanır.
+* Ancak, şifrenizi güvenli bir yerde saklamak ve güçlü bir şifre seçmek sizin sorumluluğunuzdadır.
+*** Şifrenizi kaybederseniz, dosyalarınızı çözemezsiniz.
+
+## Katkıda Bulunma
+
+Düzenleme geliştirme isteği için pull kabuldür.
+
+## Lisans
+
+Bu proje MIT lisansı altında lisanslanmıştır.
+Tüm hakları reach1r adlı kullanıcıya aittir 
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ENG
+# BatSec File Encryption/Decryption Tool
+
+This tool is a Python application used to encrypt and decrypt files. A graphical user interface (GUI) has been created using the Tkinter library.
+
+## Features V1.0
+
+* Encrypting and decrypting files with AES-256 GCM
+* Scrypt key derivation function for encryption key.
+* HMAC-SHA256 for the integrity of encrypted data.
+* User-friendly graphical interface.
+* Light and dark theme options.
+ Turkish English and English language options. *
+* Active password strength indicator.
+
+## Requirements
+
+* Python 3.6 or later
+* Required libraries (Run the Installation File. )
+
+## Use / Run the installation file first.
+
+1.  Run the application (the file named 'Open' starts automatically.`).
+2.  Select the file to be encrypted or decrypted by clicking on the "Select File" button.
+3.  Enter a password for encryption or decryption.
+4.  Make sure that you have selected a strong password using the password strength indicator.
+5.  Click on the "Encrypt" or "Decrypt" button.
+6.  Select the folder where the encrypted or decoded file will be saved.
+
+Customize the interface using the theme and language options.
+
+## It's Important
+
+* This tool uses strong encryption algorithms to encrypt files securely.
+* However, it is your responsibility to store your password in a secure place and choose a strong password.
+*** If you lose your password, you will not be able to decrypt your files.
+
+## Contributing
+
+Pull is an acceptance for an edit development request.
+
+## License
+
+This project is licensed under the MIT license.
+All rights belong to the user named reach1r
